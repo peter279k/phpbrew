@@ -82,5 +82,5 @@ jobs:
                 with:
                     token: ${{ secrets.GITHUB_TOKEN }}
                     files: |
-                        bin/phpbrew.phar
-                        bin/phpbrew.phar.asc
+                        phpbrew.phar
+                        phpbrew.asc
